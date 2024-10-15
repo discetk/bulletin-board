@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Hi Brain</title>
+</head>
+<body>
+    <header class = "header bg-color-white">
+        <div class = "header-wrapper">
+            <a class = "logo-link" href="index.html">
+                <img src="./img/logo.svg" alt="Hi Brain">
+            </a>
+            <div class = "btns-header">
+                <!--<div class = "login-icon-wrapper">
+                    <div class = "login-icon">
+                </div>-->
+                <div class = "btns-header-login">
+                    <div class = "icon-login"></div>
+                    <button class = "btn-reset login">Войти</button>
+                </div>
+                <button class = "btn-reset search"></button>
+            </div>
+        </div>
+    </header>
+    <main class = "main bg-color-grey">
+        <div class = "board-add">
+            <aside class = "aside bg-color-white">
+                <div class = "aside-wrapper">
+                    <div class = "user">
+                     <img src="./img/profile.svg" alt="Profile photo">
+                     <span class = "personality-block">
+                       <p class = "username">Алексей У.</p>
+                       <a class = "personal-account" href="#">Личный кабинет</a>
+                      </span>
+                    </div>
+                    <div class = "board-li">
+                      <div class="icon-book"></div>
+                      <a class = "board-p" href="#">Объявления</a>
+                    </div>
+                    <span class = "a-exit">
+                      <a class = "aside-exit" href="#"><img src="./img/exit.svg" alt="Exit">Выход</a>
+                    </span>
+                 </div>
+             </aside>
+             <section slass = "section">
+              <div class = "section-wrapper">
+               <span class = "ads">
+                 <h1 class = "h1">Объявления</h1>
+                 <p class="all-bulletin">Всего: 45</p>
+               </span>
+               <div class = "btn-add">
+                 <a class ="text-add" href="#">Добавить</a>
+                 <span class = "icon-add"></span>
+                </div>
+              </div>
+              <div class = "search-navigation-wrapper">
+                <form role="search">
+                  <div class = "form-board">
+                   <input class = "btn-reset input-search input-search-icon" type="text" placeholder="Найти объявление">
+                   <button class = "btn-reset btn-filter"><span class = "btn-filter-sp">Фильтровать</span><span class = "filter-icon"></span></button>
+                  </div>
+                </form>
+                <div class = "navigation-container">
+                  <span class = "number-pages">1—8 из 145</span>
+                  <button class="back-forward-btns btn-reset"><img src="./img/back-btn.svg" alt="Back button"></button>
+                  <button class = "back-forward-btns btn-reset"><img src="./img/forward-btn.svg" alt="Forward to button"></button>
+                </div>
+              </div>
+              <div class="board-contain">
+                <table class = "table">
+                  <thead class="thead">
+                    <tr class = "tr-header">
+                      <th class = "th th-header-name">Название объявления</th>
+                      <th class = "th th-justify th-category">Категория</th>
+                      <th class = "th th-justify">Дата публикации</th>
+                      <th class = "th th-justify">Публикация</th>
+                    </tr>
+                  </thead>
+                  <tbody class = "tbody">
+                     <tr class = "tr-wrapper tr-cont">
+                       <td class = "name-add">Чепчик</td>
+                       <td class = "name-cloth">Одежда</td>
+                       <td class = "name-data">12 сентября 2020</td>
+                       <td class = "name-yes">Да</td>
+                     </tr>
+                     <tr class = "tr-wrapper">
+                       <td class = "name-add">Самовар</td>
+                       <td></td>
+                       <td class = "name-data">13 сентября 2020</td>
+                       <td class = "name-yes">Да</td>
+                     </tr>
+                     <tr class = "tr-wrapper">
+                       <td class = "name-add">Стиральная машина LG</td>
+                       <td></td>
+                       <td class = "name-data">14 сентября 2020</td>
+                       <td class = "name-yes">Да</td>
+                      </tr>
+                      <tr class = "tr-wrapper">
+                        <td class = "name-add">Часы Rolex</td>
+                        <td></td>
+                        <td class = "name-data">15 сентября 2020</td>
+                        <td class = "name-yes">Да</td>
+                      </tr>
+                      <tr class = "tr-wrapper">
+                        <td class = "name-add">Lada Kalina</td>
+                        <td></td>
+                        <td class = "name-data">12 сентября 2020</td>
+                        <td class = "name-yes">Да</td>
+                      </tr>
+                      <tr class = "tr-wrapper">
+                        <td class = "name-add">Спортивный велосипед</td>
+                        <td></td>
+                        <td class = "name-data">12 сентября 2020</td>
+                        <td class = "name-yes">Да</td>
+                      </tr>
+                      <tr class = "tr-wrapper">
+                        <td class = "name-add">Ботинки поношенные</td>
+                        <td></td>
+                        <td class = "name-data">12 сентября 2020</td>
+                        <td class = "name-yes">Да</td>
+                      </tr>
+                      <tr class = "tr-wrapper">
+                        <td class = "name-add">Приставка Dendy</td>
+                        <td></td>
+                        <td class = "name-data">12 сентября 2020</td>
+                        <td class = "name-yes">Да</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+             </section>
+        </div>
+    </main>
+    <footer class = "footer bg-color-dark-grey"">
+      <div class = "footer-wrapper">
+        <div class = "footer-up">
+          <div class = "footer-logo-name">
+            <a class = "logo-footer" href="index.html"><img src="./img/logo-f.svg" alt="Logotype"></a>
+            <a class = "name-board-adds font-f-footer" href="#">Доска объявлений</a>
+          </div>
+          <div class = "social-networks-footer">
+            <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="./img/inst.svg" alt="Instagram"></a>
+            <a href="#"><img src="./img/vk.svg" alt="Vk"></a>
+          </div>
+        </div>
+        </div>
+        <div class = "footer-down">
+         <p class = "name-company-f font-f-footer">© ООО «Доска диджитал», 2022</p>
+         <a class = "policy-footer font-f-footer" href="#">Политика конфиденциальности</a>
+         <a class = "email-footer font-f-footer" href="#">support@doska.ru</a>
+         <a class = "number-footer font-f-footer" href="#">8 800 000 00 00</a>
+      </div>
+    </footer>
+</body>
+</html>
